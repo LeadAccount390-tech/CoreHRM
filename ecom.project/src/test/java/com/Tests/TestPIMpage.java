@@ -15,5 +15,6 @@ public class TestPIMpage extends Basepage {
   
 	  loginPage.login();
 	  TestNgutil.assertTrue(Commonutils.getElementText(loginPage.getWelcomepage(),"Welcome selenium"));
+	  System.out.println("wlcome to github");
   }
 }
